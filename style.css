@@ -1,0 +1,111 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#gridCont {
+  background-color: gray;
+  display:grid;
+  padding: 15px;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
+  grid-gap: 5px;
+  
+  justify-items: space-around;
+  align-items: stretch;
+  grid-template-areas: 
+    "ga1 ga1 ga1 ga9 "
+  "ga2 ga2 ga3 ga3"
+  "ga2 ga2 ga4 ga5"
+  "ga6 ga7 ga8 ga8"
+  "ga6 ga10 ga8 ga8";
+    
+  /*
+  "ga10 ga10 ga10 ga10"
+    "ga10 ga10 ga10 ga10"
+    "no ga1 ga1 no1"
+    "ga2  ga2 ga3 ga3"
+    "ga9 ga9  ga4 ga4"
+    "ga5 ga6 ga7 ga8";
+  */
+  
+}
+
+
+.papa{
+  background-color: yellow;
+}
+
+.pepe {
+  
+  margin: 5px;
+  text-align: center;
+  background-color: turquoise;
+  padding:20px;
+  
+}
+.pepe:hover {
+  background-color: red;
+  text-align: center;
+}
+
+#grIt1 {
+grid-area: ga1;
+}
+#grIt2 {
+grid-area: ga2;
+  display:grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr ;
+  grid-template-areas: 
+  "gb1 gb2 gb2 gb3"
+  "gb4 gb4 gb5 gb3";
+  grid-gap: 5px;
+}
+#grIt3 {
+grid-area: ga3;
+}
+#grIt4 {
+grid-area: ga4;
+}
+#grIt5 {
+grid-area: ga5;
+}
+#grIt6 {
+grid-area: ga6;
+}
+#grIt7 {
+grid-area: ga7;
+}
+#grIt8 {
+grid-area: ga8;
+}
+#grIt9 {
+grid-area: ga9;
+}
+#grIt10 {
+grid-area: ga10;
+}
+
+#grItB1 {
+grid-area: gb1;
+}
+#grItB2 {
+grid-area: gb2;
+}
+#grItB3 {
+grid-area: gb3;
+}
+#grItB4 {
+grid-area: gb4;
+}
+#grItB5 {
+grid-area: gb5;
+}
+#grItB6 {
+grid-area: gb6;
+}
+#grItB7 {
+grid-area: gb7;
+}
+#grItB8 {
+grid-area: gb8;
+}
