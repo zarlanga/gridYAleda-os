@@ -9,8 +9,8 @@ html, body {
   padding: 15px;
   grid-template-columns: 1fr 3fr 2fr 1fr;
   grid-gap: 5px;
-  
-  justify-items: space-around;
+  justify-content: space-around;
+  justify-items: stretch ;
   align-items: stretch;
   grid-template-areas: 
     "ga1 ga1 ga1 ga9 "
